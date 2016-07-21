@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/vertical_margin_half"
+    android:layout_marginLeft="@dimen/vertical_margin"
+    android:layout_marginRight="@dimen/vertical_margin"
+    android:layout_marginTop="@dimen/vertical_margin_half"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardbg"
+        android:orientation="vertical">
+
+        <app.go.search.util.ProportionalImageView
+            android:id="@+id/poster"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:padding="5dp"></app.go.search.util.ProportionalImageView>
+
+
+        <TextView
+            android:id="@+id/evento_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/poster"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/labelcolor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/evento_title"
+            android:layout_toRightOf="@id/poster"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+
+            android:text="@string/labelyear"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/evento_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/evento_title"
+            android:layout_toRightOf="@id/label_year"
+            android:paddingBottom="12dp"
+            android:paddingLeft="5dp"
+
+            android:paddingTop="10dp"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/label_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_year"
+            android:layout_toRightOf="@id/poster"
+            android:paddingLeft="5dp"
+            android:text="@string/labeltype"
+
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/evento_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_year"
+            android:layout_toRightOf="@id/label_type"
+            android:paddingBottom="12dp"
+            android:paddingLeft="5dp"
+
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

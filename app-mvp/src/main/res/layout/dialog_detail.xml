@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/label_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/labelgenre"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_genre"
+            android:textSize="16sp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_genre"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labeldirector"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_director"
+            android:textSize="16sp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_writer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_director"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labelwriter"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_writer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_writer"
+            android:textSize="16sp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_released"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_writer"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labelreleased"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_released"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_writer"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/label_released"
+            android:textSize="16sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_released"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labelruntime"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_released"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/label_runtime"
+            android:textSize="16sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_runtime"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labellanguage"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_language"
+            android:textSize="16sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/label_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_language"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labelcountry"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_country"
+            android:textSize="16sp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_awards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_country"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labelawards"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_awards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_awards"
+            android:textSize="16sp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/label_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_awards"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/labelrating"
+            android:textColor="@color/labelcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_awards"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/label_rating"
+            android:textSize="16sp"
+
+
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

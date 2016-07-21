@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Film Finder</string>
+    <string name="titapp">Film Finder</string>
+    <string name="titdett">Film Detail</string>
+    <string name="labelyear">Year:</string>
+    <string name="labeltype">Type:</string>
+    <string name="labelactors">Actors</string>
+    <string name="labeladditional">Additional film informations</string>
+    <string name="labelgenre">Genre</string>
+    <string name="labeldirector">Director</string>
+    <string name="labelwriter">Writer</string>
+    <string name="labelreleased">Released:</string>
+    <string name="labelruntime">Runtime:</string>
+    <string name="labellanguage">Language</string>
+    <string name="labelcountry">Country</string>
+    <string name="labelawards">Awards</string>
+    <string name="labelrating">Rating:</string>
+    <string name="dialogcancel">Close</string>
+    <string name="btnmoreinfo">Additional info</string>
+    <string name="dettaglioevento">Film detail</string>
+    <string name="mycv">About me</string>
+    <string name="email">gramants@gmail.com</string>
+    <string name="subject">Info request</string>
+    <string name="body">Message</string>
+    <string name="sendmemail">Contact me</string>
+    <string name="mycvtit">CV Stefano Gramantieri</string>
+    <string name="default_info_message">Insert a film title or a search string</string>
+    <string name="hit_username">Insert a title</string>
+    <string name="error_loading_repos">Network error</string>
+    <string name="text_empty_repos">Sorry, no result found...</string>
+</resources>
